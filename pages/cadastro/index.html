@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <header class="headerContainer">
+
+
+            <p class="headerP"> TRABALHO MANIPULAÇÃO DE BRANCHS</p>
+            <div class="headerContainerLink">
+
+                <a class="linkHeader" id="linkHome" href="../../index.html">Home</a>
+                <a class="linkHeader" href="../../pages/login/index.html">Produtos</a>
+                <a class="linkHeader" href="../../pages/contato/index.html">Sobre</a>
+                <a class="linkHeader" href="../../pages/cadastro/index.html">Cadastro</a>
+            </div>
+        </header>
+
+        <main>
+        <h1>
+            
+        </h1>
+            <fieldset>
+                <legend>Dados cadastrais</legend>
+
+                <form action="cadastro.php" method="get" autocomplete="on">
+                    <p>
+                        <label>Nome: </label>
+                        <input type="text" name="nome" id="inome" required maxlength="30" size="30"
+                            placeholder="Insira seu nome completo" autocomplete="name">
+                    </p>
+                    <p>
+                        <label>E-mail: </label>
+                        <input type="text" name="email" id="email" required maxlength="50" size="30"
+                            placeholder="Insira seu e-mail" autocomplete="email">
+                    </p>
+                    <p>
+                        <label>Senha: </label>
+                        <input type="password" name="sen" id="sen" required minlength="8" maxlength="20" size="30"
+                            placeholder="Minímo 8 letras" autocomplete="current-password">
+                    </p>
+                    <p>
+                        <label>Confirmação de senha: </label>
+                        <input type="password" name="confsen" id="confsen" required minlength="8" maxlength="20"
+                            size="30" placeholder="Repita sua senha" autocomplete="current-password">
+                    </p>
+                    <p>
+                        <label>Data de nascimento</label>
+                        <input type="date" name="birth" id="birth">
+                    </p>
+                    <p>
+                        <label>CPF: </label>
+                        <input type="number" name="cpf" id="cpf" required maxlength="11" size="30"
+                            placeholder="Insira seu CPF" autocomplete="cpf">
+                    </p>
+
+                </form>
+
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Endereço</legend>
+
+                <form>
+
+                    <p>
+                        <label>Estado: </label>
+                        <input type="text" name="estado" id="estado" required maxlength="30" size="30"
+                            placeholder="Insira seu estado" autocomplete="estado">
+                    </p>
+
+                    <p>
+                        <label>Cidade: </label>
+                        <input type="text" name="cidade" id="cidade" required maxlength="50" size="30"
+                            placeholder="Insira sua cidade" autocomplete="cidade">
+                    </p>
+
+                    <p>
+                        <label>Bairro: </label>
+                        <input type="text" name="bairro" id="bairro" required maxlength="50" size="30"
+                            placeholder="Insira seu bairro" autocomplete="bairro">
+                    </p>
+
+                </form>
+
+            </fieldset>
+            <div id="botoes">
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </p>
+
+            </div>
+
+
+
+
+        </main>
+        <footer class="footerContainer">
+            <div class="footerContainerDados">
+                <h2>Disciplina: Desenvolvimento Web</h2>
+                <h2>Instituição: UniSenai</h2>
+                <h2>Semestre: Terceiro</h2>
+                <h2>Professor: Bruno Bandeira Fernandes</h2>
+                <h2>Ano: 2024</h2>
+            </div>
+            <div class="footerContainerNomes">
+                <h2>Gabriel Costa Merlo</h2>
+                <h2>Guilherme Ferreira de Borba</h2>
+                <h2>Marcus Vinicius Assunção Silva</h2>
+                <h2>Lucas de Andrade Martins</h2>
+
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
