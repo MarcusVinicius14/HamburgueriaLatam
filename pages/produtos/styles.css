@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+main {
+    text-align: center;
+    width: 100%;
+    margin: 0px 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    border-bottom: 1px solid #13388885;
+}
+
+.headerContainerLink {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.headerP {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 56px;
+    text-align: center;
+    margin-bottom: 15px;
+    text-shadow: 0px 4px 4px #7d7987;
+}
+
+a {
+    margin-top: 20px;
+    color: #dfa018;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 1px solid #000000;
+}
+
+.footerContainerDados {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerContainerNomes {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.containerMain1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+}
+
+.containerMain2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+}
+
+h2 {
+    color: #7d7987;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+h1 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 56px;
+    text-align: center;
+    margin-bottom: 15px;
+    text-shadow: 0px 4px 4px #7d7987;
+}
+
+p {
+    color: #7d7987;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+table {
+    text-align: center;
+    width: 500px;
+    border-collapse: collapse;
+    margin: 0px 0;
+}
+
+.tabela {
+    padding-left: 500px;
+}
+
+caption {
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 8px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+col.cnome {
+    background-color: #0077ff2c;
+}
+
+col.cgrupo {
+    background-color: #0077ff2c;
+}
+
+.azul {
+    background-color: #0077ff2c;
+}
